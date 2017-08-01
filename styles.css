@@ -13,5 +13,14 @@ header {
   border-width: 15px;
   border-style: solid;
   border-color: pink;
+}
+.class-list {
+ list-style-type: square;
+}
+.item {
+  border: solid;
+}
+.even {
+  background-color: grey;
 
 }
