@@ -2,5 +2,16 @@
 /* Don't forget to link to this file in your HTML, otherwise your styles won't show up! */
 html {
   font-size: 25px;
+}
+h1  {
+  font-family: Cambria, Georgia, Times, ‘Times New Roman’, serif;
+}
+h2 {
+  font-family: Futura, ‘Century Gothic’, AppleGothic, sans-serif;
+}
+header {
+  border-width: 15px;
+  border-style: solid;
+  border-color: pink;
 
 }
