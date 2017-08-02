@@ -33,11 +33,10 @@ header {
 #item2 {
   text-align: right;
 }
-#advanced-selectors ol li p {
+ol li p {
   background-color: grey;
 }
-
- #advanced-selectors ol>li>p :nth-child(odd){
+ol li:nth-child(odd) p{
   background-color: green;
 
 }
