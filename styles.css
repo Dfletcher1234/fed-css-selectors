@@ -33,8 +33,17 @@ header {
 #item2 {
   text-align: right;
 }
-#advanced-selectors  {
-  padding: 4px;
+#advanced-selectors ol li p {
   background-color: grey;
+}
 
+#advanced-selectors ol li p :nth-child(odd){
+  background-color:  green;
+
+}
+#advanced-selectors a {
+  color: red;
+}
+#advanced-selectors a:hover{
+  color: yellow;
 }
