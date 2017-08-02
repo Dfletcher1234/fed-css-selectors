@@ -37,7 +37,7 @@ header {
   background-color: grey;
 }
 
-#advanced-selectors ol li p :nth-child(2n+1){
+ #advanced-selectors ol>li>p :nth-child(odd){
   background-color: green;
 
 }
